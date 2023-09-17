@@ -1,0 +1,115 @@
+html {
+    background-image: linear-gradient(315deg,#4158D0,#C850C0,#745cff);
+    
+}
+.webbody {
+    min-width: 1100px;
+    min-height: 600px;
+    background-image: url(image/music_background_image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px;
+    
+}
+header{
+    background-image: linear-gradient(315deg,#C850C0,#FFCC70);
+    display: flex;
+}
+.button {
+    margin-left: 450px;
+    margin-top: 20px;
+}
+button {
+    width: 75px;
+    height: 35px;
+    border-style: none;
+    background-color: white;
+    color: #C850C0;
+    box-shadow: 2px 2px 2px black;
+}
+button:hover {
+    box-shadow: 2px 2px 2px #C850C0;
+}
+.logo {
+    width: 190px;
+    height: 130px;
+}
+.headertext {
+    color: rgb(92, 46, 8);
+    font-size: 2.8rem;
+    
+}
+/*drop down navigation--------------*/
+
+.nav_bar {
+    background-color: blanchedalmond;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    display: inline-flex;
+    padding-left: 350px;
+    padding-right: 360px;
+}
+.navs a {
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(92, 46, 8);
+    padding-left: 30px;
+    text-align: center;
+}
+.navhover {
+    position: absolute;
+    display: none;
+    z-index: 100;
+    padding-top: 3px;
+    margin-left:-30px;
+}
+.navs:hover .navhover {
+    display: block;
+    box-shadow: 3px 3px 2px black ;
+    
+}
+.drop_down {
+    background-color: rgb(241, 210, 163);
+    padding-right: 5px;  
+}
+/*drop down navigation ends---------*/
+main {
+    height: 600px;
+}
+
+.log_in_form {
+    width: 650px;
+    height: 460px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.inputs {
+    width: 200px;
+    height: 20px;
+    margin-left: 70px;
+    color:rgb(58, 45, 28);
+    font-size: 15px;
+}
+.label {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 70px;
+}
+.submit {
+    width: 75px;
+    height: 35px;
+    border-style: none;
+    background-color: white;
+    color: #C850C0;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+footer {
+    height: 150px;
+    background-image: linear-gradient(315deg,#C850C0,#FFCC70);
+    
+}

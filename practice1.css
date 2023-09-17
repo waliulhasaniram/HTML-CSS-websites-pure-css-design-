@@ -1,0 +1,137 @@
+html {
+    background-image: linear-gradient(315deg,#4158D0,#C850C0,#745cff);
+
+}
+.webbody {
+    min-width: 1100px;
+    min-height: 1300px;
+    background-image: url(image/music_background_image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px;
+    
+}
+header{
+    background-image: linear-gradient(315deg,#C850C0,#FFCC70);
+    display: flex;
+}
+.headertext{
+    margin-left: -40px;
+}
+.button {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+button {
+    width: 70px;
+    height: 30px;
+    border-style: none;
+    background-color: white;
+    color: #C850C0;
+    box-shadow: 2px 2px 2px black;
+}
+button:hover {
+    box-shadow: 2px 2px 2px #C850C0;
+}
+.logo {
+    width: 180px;
+    height: 120px;
+}
+.headertext {
+    color: rgb(92, 46, 8);
+    font-size: 2.5rem;
+    
+}
+/*drop down navigation--------------*/
+
+.nav_bar {
+    background-color: blanchedalmond;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    display: inline-flex;
+    padding-left: 300px;
+    padding-right: 340px;
+}
+.navs a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(92, 46, 8);
+    padding-left: 30px;
+    text-align: center;
+}
+.navhover {
+    position: absolute;
+    display: none;
+    z-index: 100;
+    padding-top: 3px;
+    margin-left:-30px;
+}
+.navs:hover .navhover {
+    display: block;
+    box-shadow: 3px 3px 2px black ;
+    
+}
+.drop_down {
+    background-color: rgb(241, 210, 163);
+    padding-right: 5px;  
+}
+/*drop down navigation ends---------*/
+main {
+    height: 1000px;
+}
+.show_nav_shadow{
+    height: 10px;
+}
+.card {
+    padding-top: 40px;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_box {
+    height: 180px;
+    width: 23%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 2px black;
+    line-height: 15px;
+}
+.card_box:hover {
+    box-shadow: 2px 2px 3px white;
+}
+i.material-icons {
+    color: white;
+    margin-top: 10px;
+}
+
+ div.card h1 {
+    color: white;
+}
+ div.card p {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.warp_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.warp_div_box {
+    height: 180px;
+    width: 37%;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px black;
+}
+.warp_div_box:hover {
+    box-shadow: 2px 2px 3px white;
+}
+
+footer {
+    height: 150px;
+    background-image: linear-gradient(315deg,#C850C0,#FFCC70);
+    
+}
